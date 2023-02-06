@@ -33,6 +33,16 @@
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
 }
+.description button{
+  display: flex ;
+  margin: auto;
+  padding: 10px;
+  background-color: grey;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  justify-content: center;
+}
 
 .code {
   font-weight: 700;
