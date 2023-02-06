@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Modal from "@/components/testmodal";
+import Modal from "@/components/StoriesModal";
 
 const StoriesModals = () => {
 
