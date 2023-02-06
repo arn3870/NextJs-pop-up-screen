@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from './page.module.css'
-// import { useState } from 'react'
+import Modals from "../layout/Modals"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -10,8 +10,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <button 
-        >pop-up</button>
+        <Modals></Modals>
       </div>
     </main>
   )
