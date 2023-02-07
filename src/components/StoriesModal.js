@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import styles from "./css/StoriesModal.module.css";
+import style from "./css/generalStyling.module.css";
 
 const Modal = ({ handleNext, handlePrev, handleClose }) => {
   return (
-    <div className={styles.wrapper}>
+    <div className={style.wrapper}>
       <div className={styles.textClass}>How many stories is your home</div>
-      <div className={styles.cancel} onClick={handlePrev} />
-      <div className={styles.leftArrow} onClick={handleClose} />
+      <div className={style.cancel} onClick={handlePrev} />
+      <div className={style.leftArrow} onClick={handleClose} />
       <div className={styles.Rectangle6} />
       <div className={styles.Rectangle7} />
       <div className={styles.modalClass} />

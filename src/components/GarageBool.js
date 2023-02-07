@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import styles from "./css/GarageBool.module.css";
+import style from "./css/generalStyling.module.css";
 
 const GarageBool = ({handleNext, handlePrev, handleClose}) => {
   return (
-    <div className={styles.wrapper}>
+    <div className={style.wrapper}>
       <div className={styles.textClass}>Do you have a garage?</div>
-      <div className={styles.cancel} onClick={handleClose} />
-      <div className={styles.leftArrow} onClick={handlePrev} />
+      <div className={style.cancel} onClick={handleClose} />
+      <div className={style.leftArrow} onClick={handlePrev} />
       <div className={styles.Rectangle6} />
       <div className={styles.Rectangle7} />
-      <div className={styles.modalClass} />
+      <div className={style.modalClass} />
       <div className={styles.union}/> 
       <div className={styles.vector}/>
       <div className={styles.Rectangle17} onClick={handleNext} > <div className={styles.p}> Yes </div> </div>

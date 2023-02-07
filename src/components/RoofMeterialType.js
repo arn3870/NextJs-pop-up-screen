@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import styles from "./css/RoofMaterialType.module.css";
+import style from "./css/generalStyling.module.css";
 
 const RoofMaterialType = ({handleNext, handlePrev, handleClose}) => {
   return (
-    <div className={styles.wrapper}>
+    <div className={style.wrapper}>
       <div className={styles.textClass}>What type of roof you are interested in?</div>
-      <div className={styles.cancel} onClick={handleClose}/>
-      <div className={styles.leftArrow} onClick={handlePrev}/>
+      <div className={style.cancel} onClick={handleClose}/>
+      <div className={style.leftArrow} onClick={handlePrev}/>
       <div className={styles.Rectangle6} />
       <div className={styles.Rectangle7} />
-      <div className={styles.modalClass} />
+      <div className={style.modalClass} />
       <div className={styles.asphalt} onClick={handleNext}> <div className={styles.p}> Asphalt </div></div> 
       <div className={styles.clay} onClick={handleNext}> <div className={styles.p}> Clay </div></div> 
       <div className={styles.concrete} onClick={handleNext}> <div className={styles.p}> Concrete </div></div> 
