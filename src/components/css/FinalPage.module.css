@@ -71,17 +71,17 @@
 
 .p {
   position: absolute;
-  width: 38px;
-  height: 23px;
-  left: calc(53% - 38px / 2 - 5px);
-  top: 10px;
+  width: 127px;
+  height: 16px;
+  left: 133px;
+  top: 261px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 111.52%;
+  text-align: center;
   color: #6574ff;
-  z-index: 3;
 }
 
 .searchBar {
@@ -95,7 +95,7 @@
   border-radius: 6px;
 }
 
-.pinIcon{
+.pinIcon {
   position: absolute;
   width: 16px;
   height: 23px;
@@ -103,4 +103,35 @@
   top: 205px;
   z-index: 1;
   background: url(../../../public/pinIcon.png);
+}
+
+.checkbox {
+  box-sizing: border-box;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 113px;
+  top: 260px;
+  border: 1px solid #d9d9d9;
+  border-radius: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  position: absolute;
+  width: 249px;
+  height: 38px;
+  left: calc(50% - 249px / 2 - 0.5px);
+  top: calc(50% - 38px / 2 + 60px);
+  background-color: #6574ff;
+  border: none;
+  border-radius: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 111.52%;
+  text-align: center;
 }

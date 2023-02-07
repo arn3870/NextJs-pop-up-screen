@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        {!isOPen && (<button onClick={handleOpenModal}>Open Modal</button>)}
+        {!isOPen && (<button className={styles.button} onClick={handleOpenModal}>Open Modal</button>)}
         {isOPen && (<Modals></Modals>)}
       </div>
     </main>

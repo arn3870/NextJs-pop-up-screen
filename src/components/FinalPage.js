@@ -13,8 +13,11 @@ const FinalPage = (handleNext, handlePrev, handleClose) => {
       <div>
       <div className={styles.pinIcon}></div>
       <input type="text" className={styles.searchBar}></input></div>
-      <label className="p">i also need Gutters</label>
-      <input type="checkbox"></input>
+      <label>
+      <div className={styles.p}>I also need gutters</div>
+      <input type="checkbox" className={styles.checkbox}></input>
+      </label>
+      <button className={styles.button}>View my estimates</button>
     </div>
   );
 };
