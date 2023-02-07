@@ -27,11 +27,12 @@
 
 .union {
   position: absolute;
-  width: 155.57px;
-  height: 109.66px;
-  left: calc(50% - 155.57px / 2 - 0.6px);
-  top: calc(50% - 109.66px / 2 - 58.17px);
-  background: url(../../../public/Union.png);
+  width: 180px;
+  height: 150px;
+  left: calc(50% - 180px / 2 - 5px);
+  top: calc(50% - 150px / 2 - 48px);
+  background: #d9d9d9;
+  background: url(../../../public/Group-11.png);
 }
 
 .leftArrow {
@@ -41,7 +42,7 @@
   left: 26px;
   top: 17px;
   background: url(../../../public/left-arrow\ .png);
-  opacity: 0.5;
+  z-index: 1;
 }
 
 .Rectangle6 {
@@ -56,14 +57,14 @@
   position: absolute;
   height: 3px;
   left: 0px;
-  right: 377px;
+  right: 275px;
   top: 50px;
   background: #6574ff;
 }
 
 .textClass {
   position: absolute;
-  left: 70px;
+  left: 115px;
   right: 50px;
   top: 87px;
   bottom: 383px;
@@ -75,46 +76,36 @@
   color: #6574ff;
 }
 
-.vector {
-  position: absolute;
-  width: 15.38px;
-  height: 15.38px;
-  left: calc(50% - 15.38px / 2 - 0.15px);
-  top: calc(50% - 15.38px / 2 - 73.89px);
-  border-radius: 1px;
-  background-color: #fffefe;
-  background: url(../../../public/Vector.png);
-}
-
 .p {
   position: absolute;
-  width: 12.8px;
-  height: 25px;
-  left: calc(52% - 12.8px / 2 - 0.59px);
-  top: calc(105% - 25px / 2 - 41.31px);
+  width: 38px;
+  height: 23px;
+  left: calc(53% - 38px / 2 - 5px);
+  top: 10px;
   font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
-  font-size: 22px;
+  font-weight: 700;
+  font-size: 16px;
   line-height: 111.52%;
   color: #6574ff;
 }
 
-.Rectangle11 {
+.Rectangle17 {
   position: absolute;
-  width: 117px;
-  height: 78px;
-  left: calc(50% - 117px / 2 + 0.5px);
-  top: calc(50% - 78px / 2 + 43px);
+  width: 288px;
+  height: 38px;
+  left: calc(50% - 288px / 2 - 6px);
+  top: calc(50% - 38px / 2 + 101px);
   background: #d9d9d9;
-  border-radius: 8px;
+  border-radius: 6px;
 }
-.Rectangle13 {
+
+.Rectangle20 {
   position: absolute;
-  width: 117px;
-  height: 78px;
-  left: calc(50% - 117px / 2);
-  top: calc(50% - 78px / 2 + 128px);
+  width: 288px;
+  height: 38px;
+  left: calc(50% - 288px / 2 - 6px);
+  top: calc(50% - 38px / 2 + 155px);
   background: #d9d9d9;
-  border-radius: 8px;
+  border-radius: 6px;
 }

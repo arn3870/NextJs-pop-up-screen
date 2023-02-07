@@ -1,0 +1,151 @@
+.wrapper {
+  position: relative;
+  width: 450px;
+  height: 500px;
+  background: #fffefe;
+  border-radius: 5px;
+}
+.modalClass {
+  position: absolute;
+  height: 50px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  border-radius: 5px;
+  background: #f1efef;
+}
+.cancel {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  right: 21px;
+  top: 20px;
+  left: 420px;
+  z-index: 5;
+  background: url(../../../public/cancel.png);
+}
+
+.leftArrow {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 26px;
+  top: 17px;
+  z-index: 1;
+  background: url(../../../public/left-arrow\ .png);
+}
+
+.Rectangle6 {
+  position: absolute;
+  height: 3px;
+  left: 0px;
+  right: 0px;
+  top: 50px;
+  background: #d9d9d9;
+}
+.Rectangle7 {
+  position: absolute;
+  height: 3px;
+  left: 0px;
+  right: 130px;
+  top: 50px;
+  background: #6574ff;
+}
+
+.textClass {
+  position: absolute;
+  width: 310px;
+  text-align: center;
+  height: 35px;
+  left: 75px;
+  right: 50px;
+  top: 87px;
+  bottom: 383px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 111.52%;
+  color: #6574ff;
+}
+
+.p {
+  position: absolute;
+  width: 38px;
+  height: 23px;
+  left: calc(53% - 38px / 2 - 5px);
+  top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 111.52%;
+  color: #6574ff;
+}
+
+.asphalt {
+  position: absolute;
+  width: 127px;
+  height: 38px;
+  left: calc(50% - 127px / 2 - 71.5px);
+  top: calc(50% - 38px / 2 - 47px);
+  background: #d9d9d9;
+  border-radius: 6px;
+}
+
+.clay {
+  position: absolute;
+  width: 127px;
+  height: 38px;
+  left: calc(50% - 127px / 2 + 70.5px);
+  top: calc(50% - 38px / 2 - 47px);
+  background: #d9d9d9;
+  border-radius: 6px;
+}
+
+.concrete {
+  position: absolute;
+  width: 127px;
+  height: 38px;
+  left: calc(50% - 127px / 2 - 71.5px);
+  top: calc(50% - 38px / 2 + 2px);
+  background: #d9d9d9;
+  border-radius: 6px;
+}
+.copper {
+  position: absolute;
+  width: 127px;
+  height: 38px;
+  left: calc(50% - 127px / 2 + 70.5px);
+  top: calc(50% - 38px / 2 + 2px);
+  background: #d9d9d9;
+  border-radius: 6px;
+}
+
+.metal {
+  position: absolute;
+  width: 127px;
+  height: 38px;
+  left: calc(50% - 127px / 2 - 71.5px);
+  top: calc(50% - 38px / 2 + 51px);
+  background: #d9d9d9;
+  border-radius: 6px;
+}
+.state {
+  position: absolute;
+  width: 127px;
+  height: 38px;
+  left: calc(50% - 127px / 2 + 70.5px);
+  top: calc(50% - 38px / 2 + 51px);
+  background: #d9d9d9;
+  border-radius: 6px;
+}
+.wood {
+  position: absolute;
+  width: 127px;
+  height: 38px;
+  left: calc(50% - 127px / 2 - 0.5px);
+  top: calc(50% - 38px / 2 + 100px);
+  background: #d9d9d9;
+  border-radius: 6px;
+}
