@@ -9,7 +9,7 @@ import { useState } from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const [isOPen, setIsOpen] = useState(false);
+  let [isOPen, setIsOpen] = useState(false);
   const handleOpenModal = () => {
     setIsOpen(true);
   };

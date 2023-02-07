@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import styles from "./css/FinalPage.module.css";
 
-const FinalPage = () => {
+const FinalPage = (handleNext, handlePrev, handleClose) => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.textClass}>Almost Done! <br/> Where is this project taking place?</div>
-      <div className={styles.cancel} />
-      <div className={styles.leftArrow} />
+      <div className={styles.cancel } onclick={handleClose} />
+      <div className={styles.leftArrow} onclick={handlePrev} />
       <div className={styles.Rectangle6} />
       <div className={styles.Rectangle7} />
       <div className={styles.modalClass} />
