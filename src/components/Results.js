@@ -1,23 +1,26 @@
 import React from "react";
 import style from "./css/GeneralStyling.module.css";
-import styles from "./css/StoriesModal.module.css";
+import styles from "./css/Results.module.css";
+import BaseCard from "./BaseCard";
 
 const Results = ({ handleNext, handlePrev, handleClose, values }) => {
 
-    const handleValues = (values) => {
-        for (let i = 0; i <= values.length; i++){
-            return values[i]
-        }
-    }
-
   return (
-    <div className={style.wrapper}>
-      <div className={style.modalClass}>
-        <div className={style.cancel} onClick={handleClose} />
+    // <div className={style.wrapper}>
+    //   <div className={style.modalClass}>
+    //     <div className={style.cancel} onClick={handleClose} />
+    //     <div><p className={styles.p}>{handleValues(values)}</p></div>
+    //   </div>
+    // </div>
+    <BaseCard>
         <div className={style.leftArrow} onClick={handlePrev} />
-        <div><p className={styles.p}>{handleValues(values)}</p></div>
-      </div>
-    </div>
+        <p className={styles.p}>{values[1]}</p><br></br>
+        <p className={styles.p} >{values[2]}</p><br></br>
+        <p className={styles.p}>{values[3]}</p><br></br>
+        <p className={styles.p}>{values[4]}</p><br></br>
+        <p className={styles.p}>{values[5]}</p><br></br>
+        <p className={styles.p}>{values[[0], [1]]}</p><br></br>
+    </BaseCard>
   );
 };
 export default Results;

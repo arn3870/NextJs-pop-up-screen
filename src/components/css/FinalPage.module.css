@@ -44,6 +44,9 @@
   position: absolute;
   width: 249px;
   height: 38px;
+  padding-left: 40px;
+  font-weight: bold;
+  color: #f16566;
   left: calc(50% - 249px / 2 - 0.5px);
   top: calc(50% - 38px / 2 - 33px);
   border: 1px solid #d9d9d9;

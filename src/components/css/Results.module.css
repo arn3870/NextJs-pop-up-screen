@@ -1,0 +1,15 @@
+.p {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: -410px;
+    /* margin-top: 200px; */
+    top: auto;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 111.52%;
+    text-align: center;
+    color: #F16566;
+  }
