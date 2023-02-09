@@ -6,6 +6,7 @@ import RoofType from "@/components/RoofType";
 import RoofComplexity from "@/components/RoofComplexity";
 import RoofMaterialType from "@/components/RoofMeterialType";
 import FinalPage from "@/components/FinalPage";
+import Results from '@/components/Results'
 
 const StoriesModals = () => {
   const [showModal, setShowModal] = useState(true);
@@ -19,6 +20,7 @@ const StoriesModals = () => {
     RoofComplexity,
     RoofMaterialType,
     FinalPage,
+    Results
   ];
 
   const handleNext = (value) => {

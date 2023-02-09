@@ -5,7 +5,7 @@ import style from "./css/GeneralStyling.module.css";
 const FinalPage = ({ handleNext, handlePrev, handleClose }) => {
   const [location, setLocation] = useState("");
   const [gutters, setGutters] = useState(false);
-  // const [showResult, setShowResult] = useState(false);
+  const [showResult, setShowResult] = useState(false);
 
   const handleLocationChange = (e) => {
     setLocation(e.target.value);
@@ -16,13 +16,9 @@ const FinalPage = ({ handleNext, handlePrev, handleClose }) => {
   };
 
   const handleViewEstimates = () => {
-    // setShowResult(true);
+    setShowResult(true);
+    handleNext(location)
   };
-
-  // if (showResult) {
-  //   return 
-  //   // <ResultPage location={location} gutters={gutters} />;
-  // }
 
   return (
     <div className={style.wrapper}>
