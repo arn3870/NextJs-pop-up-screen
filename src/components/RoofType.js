@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./css/RoofType.module.css";
-import style from "./css/GeneralStyling.module.css";
+import style from "./css/generalStyling.module.css";
 
 const RoofType = ({ handleNext, handlePrev, handleClose }) => {
 

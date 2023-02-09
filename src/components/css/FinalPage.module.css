@@ -37,6 +37,7 @@
   line-height: 111.52%;
   text-align: center;
   color: #f16566;
+  z-index: 1;
 }
 
 .searchBar {

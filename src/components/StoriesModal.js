@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./css/StoriesModal.module.css";
-import style from "./css/GeneralStyling.module.css";
+import style from "./css/generalStyling.module.css";
 
 const Modal = ({ handleNext, handlePrev, handleClose }) => {
   return (

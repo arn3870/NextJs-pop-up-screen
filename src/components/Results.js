@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./css/GeneralStyling.module.css";
+import style from "./css/generalStyling.module.css";
 import styles from "./css/Results.module.css";
 import BaseCard from "./BaseCard";
 
