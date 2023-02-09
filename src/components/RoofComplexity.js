@@ -12,18 +12,24 @@ const RoofComplexity = ({ handleNext, handlePrev, handleClose }) => {
       <div className={styles.Rectangle6} />
       <div className={styles.Rectangle7} />
       <div className={style.modalClass} />
+      <div className={styles.imgwrap1}>
       <div
         className={styles.simple}
         onClick={() => handleNext("simple")}
       />
+      </div>
+      <div className={styles.imgwrap2}>
       <div
         className={styles.moderate}
         onClick={() => handleNext("moderate")}
       />
+      </div>
+      <div className={styles.imgwrap3}>
       <div
         className={styles.complex}
         onClick={() => handleNext("complex")}
       />
+      </div>
     </div>
   );
 };

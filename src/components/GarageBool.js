@@ -7,13 +7,12 @@ const GarageBool = ({ handleNext, handlePrev, handleClose }) => {
   return (
     <div className={style.wrapper}>
       <div className={styles.textClass}>Do you have a garage?</div>
+      <div className={style.modalClass} >
       <div className={style.cancel} onClick={handleClose} />
       <div className={style.leftArrow} onClick={handlePrev} />
+      </div>
       <div className={styles.Rectangle6} />
       <div className={styles.Rectangle7} />
-      <div className={style.modalClass} />
-      <div className={styles.union} />
-      <div className={styles.vector} />
       <div
         className={styles.Rectangle17}
         onClick={() => handleNext("Yes")}

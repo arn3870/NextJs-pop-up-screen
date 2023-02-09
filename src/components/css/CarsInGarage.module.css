@@ -1,96 +1,91 @@
-.union {
-  position: absolute;
-  width: 180px;
-  height: 150px;
-  left: calc(50% - 180px / 2 - 5px);
-  top: calc(50% - 150px / 2 - 48px);
-  background: #d9d9d9;
-  background: url(../../../public/Group-14.png);
-}
-
 .Rectangle6 {
   position: absolute;
-  height: 3px;
-  left: 0px;
-  right: 0px;
-  top: 50px;
-  background: #d9d9d9;
+  width: 150px;
+  height: 5px;
+  left: 175px;
+  top: 23px;
+  z-index: 1;
+  background: #D9D9D9;
+  border-radius: 7px;
 }
 .Rectangle7 {
   position: absolute;
-  height: 3px;
-  left: 0px;
-  right: 275px;
-  top: 50px;
-  background: #6574ff;
+  width: 70px;
+  height: 5px;
+  left: 175px;
+  top: 23px;
+  z-index: 1;
+  background: #F16566;
+  border-radius: 7px;
 }
 
 .textClass {
   position: absolute;
   width: 417px;
   height: 35px;
-  left: 40px;
-  right: 50px;
-  top: 87px;
-  bottom: 383px;
+  left: calc(55% - 417px / 2 - 0.5px);
+  top: calc(50% - 35px / 2 - 155.5px);
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
   line-height: 111.52%;
-  color: #6574ff;
+  color: #f16566;
 }
 
 .p {
   position: absolute;
-  width: 38px;
-  height: 23px;
-  left: calc(65% - 38px / 2 - 5px);
-  top: 10px;
+  width: 9px;
+  height: 24px;
+  left: calc(48% - 9px / 2 + 4.5px);
+  top: calc(173% - 24px / 2 - 64px);
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 26px;
   line-height: 111.52%;
-  color: #6574ff;
+  color: #f16566;
 }
 
 .Rectangle19 {
   position: absolute;
-  width: 131.97px;
-  height: 41.87px;
-  left: calc(50% - 131.97px / 2 - 82.02px);
-  top: calc(50% - 41.87px / 2 + 101.94px);
-  background: #d9d9d9;
+  width: 350px;
+  height: 50.18px;
+  left: calc(50% - 350px / 2 + 6px);
+  top: calc(50% - 50.18px / 2 - 60.91px);
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
 }
 
 .Rectangle25 {
   position: absolute;
-  width: 131.97px;
-  height: 41.87px;
-  left: calc(50% - 131.97px / 2 + 61.37px);
-  top: calc(50% - 41.87px / 2 + 101.94px);
-  background: #d9d9d9;
+  width: 350px;
+  height: 50.18px;
+  left: calc(50% - 350px / 2 + 6px);
+  top: calc(50% - 50.18px / 2 + 7.09px);
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
 }
 
 .Rectangle26 {
   position: absolute;
-  width: 131.97px;
-  height: 41.87px;
-  left: calc(50% - 131.97px / 2 - 82.02px);
-  top: calc(50% - 41.87px / 2 + 153.96px);
-
-  background: #d9d9d9;
+  width: 350px;
+  height: 50.18px;
+  left: calc(50% - 350px / 2 + 6px);
+  top: calc(50% - 50.18px / 2 + 75.09px);
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
 }
 .Rectangle27 {
   position: absolute;
-  width: 131.97px;
-  height: 41.87px;
-  left: calc(50% - 131.97px / 2 + 61.37px);
-  top: calc(50% - 41.87px / 2 + 153.96px);
-  background: #d9d9d9;
+  width: 350px;
+  height: 50.18px;
+  left: calc(50% - 350px / 2 + 6px);
+  top: calc(50% - 50.18px / 2 + 143.09px);
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 6px;
 }

@@ -1,52 +1,34 @@
-.union {
-  position: absolute;
-  width: 155.57px;
-  height: 109.66px;
-  left: calc(50% - 155.57px / 2 - 0.6px);
-  top: calc(50% - 109.66px / 2 - 58.17px);
-  background: url(../../../public/Union.png);
-}
-
 .Rectangle6 {
   position: absolute;
-  height: 3px;
-  left: 0px;
-  right: 0px;
-  top: 50px;
+  width: 150px;
+  height: 5px;
+  left: 175px;
+  top: 22px;
   background: #d9d9d9;
+  border-radius: 7px;
 }
 .Rectangle7 {
   position: absolute;
-  height: 3px;
-  left: 0px;
-  right: 377px;
-  top: 50px;
-  background: #6574ff;
+  width: 30px;
+  height: 5px;
+  left: 175px;
+  top: 22px;
+  background: #f16566;
+  border-radius: 7px;
 }
 
 .textClass {
   position: absolute;
-  left: 70px;
-  right: 50px;
-  top: 87px;
-  bottom: 383px;
+  width: 407px;
+  height: 29px;
+  left: calc(57% - 407px / 2 - 0.5px);
+  top: calc(50% - 29px / 2 - 175.5px);
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 25px;
   line-height: 111.52%;
-  color: #6574ff;
-}
-
-.vector {
-  position: absolute;
-  width: 15.38px;
-  height: 15.38px;
-  left: calc(50% - 15.38px / 2 - 0.15px);
-  top: calc(50% - 15.38px / 2 - 73.89px);
-  border-radius: 1px;
-  background-color: #fffefe;
-  background: url(../../../public/Vector.png);
+  color: #f16566;
 }
 
 .p {
@@ -54,30 +36,72 @@
   width: 12.8px;
   height: 25px;
   left: calc(52% - 12.8px / 2 - 0.59px);
-  top: calc(105% - 25px / 2 - 41.31px);
+  top: calc(113% - 25px / 2 - 41.31px);
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
   line-height: 111.52%;
-  color: #6574ff;
+  color: #f16566;
 }
 
+.union {
+  position: absolute;
+  width: 87.74px;
+  height: 74.33px;
+  left: calc(72% - 155px / 2 - 99.5px);
+  top: -155px;
+  z-index: 1;
+  background: url(../../../public/Card1-img1.png);
+}
 .Rectangle11 {
   position: absolute;
-  width: 117px;
-  height: 78px;
-  left: calc(50% - 117px / 2 + 0.5px);
-  top: calc(50% - 78px / 2 + 43px);
-  background: #d9d9d9;
-  border-radius: 8px;
+  width: 105.92px;
+  height: 89.74px;
+  left: 25px;
+  top: 20px;
+  z-index: 1;
+  background: url(../../../public/card1-img2.png);
 }
 .Rectangle13 {
   position: absolute;
   width: 117px;
   height: 78px;
-  left: calc(50% - 117px / 2);
-  top: calc(50% - 78px / 2 + 128px);
-  background: #d9d9d9;
+  left: calc(112% - 117px / 2);
+  top: calc(84% - 78px / 2 + 128px);
   border-radius: 8px;
+  z-index: 1;
+  background: url(../../../public/card1-img3.png);
+}
+
+.imageContainer1 {
+  position: absolute;
+  width: 155px;
+  height: 155px;
+  left: calc(50% - 155px / 2 - 99.5px);
+  top: 149px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+.imageContainer2 {
+  position: absolute;
+  width: 155px;
+  height: 155px;
+  left: calc(50% - 155px / 2 + 98.5px);
+  top: 149px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+.imageContainer3 {
+  position: absolute;
+  width: 155px;
+  height: 155px;
+  left: calc(50% - 155px / 2 + 0.5px);
+  top: 339px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
 }
