@@ -17,7 +17,7 @@ const FinalPage = ({ handleNext, handlePrev, handleClose }) => {
 
   const handleViewEstimates = () => {
     setShowResult(true);
-    handleNext({location, gutters})
+    handleNext([location, gutters])
   };
 
   return (

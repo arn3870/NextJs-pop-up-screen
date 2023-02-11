@@ -3,7 +3,7 @@
     width: 400px;
     height: 400px;
     left: -410px;
-    /* margin-top: 200px; */
+    padding-top: 200px;
     top: auto;
     font-family: "Inter";
     font-style: normal;
@@ -13,3 +13,12 @@
     text-align: center;
     color: #F16566;
   }
+  .leftArrow {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 436px;
+    z-index: 1;
+    background: url(../../../public/left-arrow\ .png);
+  }
+  
