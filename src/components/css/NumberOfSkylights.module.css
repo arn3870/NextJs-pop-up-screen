@@ -1,0 +1,10 @@
+.Rectangle7 {
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    left: 175px;
+    top: 22px;
+    z-index: 1;
+    background: #F16566;
+    border-radius: 7px;
+  }

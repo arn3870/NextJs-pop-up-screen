@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./css/CarsInGarage.module.css";
+import proBar from "./css/NumberOfSkylights.module.css";
 import style from "./css/generalStyling.module.css";
 
 const NumberOfSkylights = ({ handleNext, handlePrev, handleClose }) => {
@@ -9,7 +10,7 @@ const NumberOfSkylights = ({ handleNext, handlePrev, handleClose }) => {
       <div className={style.leftArrow} onClick={handlePrev} />
       <div className={styles.textClass}>How many skylights are on your roof?</div>
       <div className={styles.Rectangle6} />
-      <div className={styles.Rectangle7} />
+      <div className={proBar.Rectangle7} />
       <div className={style.modalClass} />
       <div className={styles.Rectangle19} onClick={() => handleNext("1 Skylight on your roof")}>
         <div className={styles.p}> 1 </div>
