@@ -11,14 +11,14 @@ const CarsInGarage = ({ handleNext, handlePrev, handleClose }) => {
       <div className={styles.Rectangle6} />
       <div className={styles.Rectangle7} />
       <div className={style.modalClass} />
-      <div className={styles.Rectangle19} onClick={() => handleNext(1)}>
+      <div className={styles.Rectangle19} onClick={() => handleNext("1 car fit in your garage")}>
         <div className={styles.p}> 1 </div>
       </div>
-      <div className={styles.Rectangle25} onClick={() => handleNext(2)}>
+      <div className={styles.Rectangle25} onClick={() => handleNext("2 cars fit in your garage")}>
         
         <div className={styles.p}> 2 </div>
       </div>
-      <div className={styles.Rectangle26} onClick={() => handleNext(3)}>
+      <div className={styles.Rectangle26} onClick={() => handleNext("3 car fit in your garage")}>
         
         <div className={styles.p}> 3 </div>
       </div>

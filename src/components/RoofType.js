@@ -15,7 +15,7 @@ const RoofType = ({ handleNext, handlePrev, handleClose }) => {
       <div className={styles.Imgwrap1}>
       <div
         className={styles.flat}
-        onClick={() => handleNext("Your selected roof type Flat")}
+        onClick={() => handleNext("Your selected roof type is Flat")}
       />
       </div>
       <div className={styles.Imgwrap2}>

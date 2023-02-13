@@ -6,6 +6,7 @@
   import RoofComplexity from "@/components/RoofComplexity";
   import ChimenysOnRoof from "@/components/ChimneysOnRoof";
   import NumberOfSkylights from "@/components/NumberOfSkylights"
+  import RoofTearing from "@/components/RoofTearing"
   import RoofMaterialType from "@/components/RoofMeterialType";
   import FinalPage from "@/components/FinalPage";
   import Results from '@/components/Results'
@@ -22,6 +23,7 @@
       RoofComplexity,
       ChimenysOnRoof,
       NumberOfSkylights,
+      RoofTearing,
       RoofMaterialType,
       FinalPage,
       Results

@@ -15,19 +15,19 @@ const RoofComplexity = ({ handleNext, handlePrev, handleClose }) => {
       <div className={styles.imgwrap1}>
       <div
         className={styles.simple}
-        onClick={() => handleNext("simple")}
+        onClick={() => handleNext("Your roof complexity is simple")}
       />
       </div>
       <div className={styles.imgwrap2}>
       <div
         className={styles.moderate}
-        onClick={() => handleNext("moderate")}
+        onClick={() => handleNext("Your roof complexity is moderate")}
       />
       </div>
       <div className={styles.imgwrap3}>
       <div
         className={styles.complex}
-        onClick={() => handleNext("complex")}
+        onClick={() => handleNext("Your roof complexity is complex")}
       />
       </div>
     </div>

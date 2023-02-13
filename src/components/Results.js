@@ -16,9 +16,15 @@ const Results = ({ handlePrev, values }) => {
       <br />
       <p className={styles.p}>{values[5]}</p>
       <br />
-      <p className={styles.p}>{values[6][0]}</p>
+      <p className={styles.p}>{values[6]}</p>
       <br />
-      <p className={styles.p}>{values[6][1].toString()}</p>
+      <p className={styles.p}>{values[7]}</p>
+      <br />
+      <p className={styles.p}>{values[8]}</p>
+      <br />
+      <p className={styles.p}>{values[9][0]}</p>
+      <br />
+      <p className={styles.p}>{values[9][1].toString()}</p>
       <br />
     </BaseCard>
   );

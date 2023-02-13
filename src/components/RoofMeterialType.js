@@ -7,7 +7,7 @@ const RoofMaterialType = ({ handleNext, handlePrev, handleClose }) => {
   return (
     <div className={style.wrapper}>
       <div className={styles.textClass}>
-        What type of roof you are interested in?
+        What of roof you are interested in?
       </div>
       <div className={style.cancel} onClick={handleClose} />
       <div className={style.leftArrow} onClick={handlePrev} />
@@ -16,49 +16,49 @@ const RoofMaterialType = ({ handleNext, handlePrev, handleClose }) => {
       <div className={style.modalClass} />
       <div
         className={styles.asphalt}
-        onClick={() => handleNext("Asphalt")}
+        onClick={() => handleNext("You're in interested in Asphalt roof")}
       >
         {" "}
         <div className={styles.p}> Asphalt </div>
       </div>
       <div
         className={styles.clay}
-        onClick={() => handleNext("Clay")}
+        onClick={() => handleNext("You're in interested in Clay roof")}
       >
         {" "}
         <div className={styles.p}> Clay </div>
       </div>
       <div
         className={styles.concrete}
-        onClick={() => handleNext("Concrete")}
+        onClick={() => handleNext("You're in interested in Concrete roof")}
       >
         {" "}
         <div className={styles.p}> Concrete </div>
       </div>
       <div
         className={styles.copper}
-        onClick={() => handleNext("Copper")}
+        onClick={() => handleNext("You're in interested in Copper roof")}
       >
         {" "}
         <div className={styles.p}> Copper </div>
       </div>
       <div
         className={styles.metal}
-        onClick={() => handleNext("Metal")}
+        onClick={() => handleNext("You're in interested in Metal roof type")}
       >
         {" "}
         <div className={styles.p}> Metal </div>
       </div>
       <div
         className={styles.state}
-        onClick={() => handleNext("State")}
+        onClick={() => handleNext("You're in interested in State roof type")}
       >
         {" "}
         <div className={styles.p}> State </div>
       </div>
       <div
         className={styles.wood}
-        onClick={() => handleNext("Wood")}
+        onClick={() => handleNext("You're in interested in Wood roof")}
       >
         {" "}
         <div className={styles.p}> Wood </div>

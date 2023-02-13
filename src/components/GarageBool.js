@@ -15,11 +15,11 @@ const GarageBool = ({ handleNext, handlePrev, handleClose }) => {
       <div className={styles.Rectangle7} />
       <div
         className={styles.Rectangle17}
-        onClick={() => handleNext("Yes")}
+        onClick={() => handleNext("You have a garage")}
       >
         <div className={styles.p}> Yes </div>
       </div>
-      <div className={styles.Rectangle20} onClick={() => handleNext("No")}>
+      <div className={styles.Rectangle20} onClick={() => handleNext("You don't have a garage")}>
         <div className={styles.p}> No </div>
       </div>
     </div>
