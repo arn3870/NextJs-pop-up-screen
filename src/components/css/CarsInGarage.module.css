@@ -23,13 +23,14 @@
   position: absolute;
   width: 417px;
   height: 35px;
-  left: calc(55% - 417px / 2 - 0.5px);
+  left: calc(50% - 417px / 2 - 0.5px);
   top: calc(50% - 35px / 2 - 155.5px);
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
   line-height: 111.52%;
+  text-align: center;
   color: #f16566;
 }
 
