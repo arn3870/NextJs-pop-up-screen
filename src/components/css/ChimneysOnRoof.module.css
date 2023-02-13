@@ -1,0 +1,156 @@
+.chimney1 {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 75px;
+  top: 55px;
+  background: url(../../../public/Chimeny1.png);
+  z-index: 2;
+}
+.chimney2 {
+  position: absolute;
+  width: 95px;
+  height: 102px;
+  left: 55px;
+  top: 55px;
+  background: url(../../../public/Chimeny1.png),
+    url(../../../public/Chimeny1.png);
+  background-repeat: no-repeat;
+  background-position: 0 top, 40px top;
+  z-index: 2;
+}
+.chimney3 {
+  position: absolute;
+  width: 110px;
+  height: 101px;
+  left: 35px;
+  top: 55px;
+  background: url(../../../public/Chimeny1.png),
+    url(../../../public/Chimeny1.png), url(../../../public/Chimeny1.png);
+  background-repeat: no-repeat;
+  background-position: 0 top, 40px top, 80px top;
+  z-index: 2;
+}
+
+.Rectangle6 {
+  position: absolute;
+  width: 150px;
+  height: 5px;
+  left: 175px;
+  top: 22px;
+  background: #d9d9d9;
+  border-radius: 7px;
+  z-index: 1;
+}
+.Rectangle7 {
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  left: 175px;
+  top: 22px;
+  background: #f16566;
+  border-radius: 7px;
+  z-index: 1;
+}
+
+.textClass {
+  position: absolute;
+  width: 330px;
+  height: 35px;
+  left: calc(52% - 330px / 2 + 3px);
+  top: calc(50% - 35px / 2 - 169.5px);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  font-size: 25px;
+  line-height: 111.52%;
+  color: #f16566;
+}
+
+.imgwrap1 {
+  position: absolute;
+  width: 178px;
+  height: 140px;
+  left: calc(50% - 178px / 2 - 108px);
+  top: 161px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+.imgwrap1::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  bottom: 0;
+  top: 92px;
+  left: calc(50% - 100px / 2);
+  background-image: url(../../../public/ChimenyBar.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  }
+
+.imgwrap2 {
+  position: absolute;
+  width: 178px;
+  height: 140px;
+  left: calc(50% - 178px / 2 + 107px);
+  top: 161px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+
+.imgwrap2::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  bottom: 0;
+  top: 92px;
+  left: calc(50% - 100px / 2);
+  background-image: url(../../../public/ChimenyBar.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  }
+
+.imgwrap3 {
+  position: absolute;
+  width: 178px;
+  height: 140px;
+  left: calc(50% - 178px / 2);
+  top: 339px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+
+.imgwrap3::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  bottom: 0;
+  top: 92px;
+  left: calc(50% - 100px / 2);
+  background-image: url(../../../public/ChimenyBar.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  }
+
+  .p {
+    position: absolute;
+    width: 61px;
+    height: 18px;
+    left: 60px;
+    top: 100px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 111.52%;
+    color: #f16566;
+    text-align: center;
+    z-index: 1;
+  }

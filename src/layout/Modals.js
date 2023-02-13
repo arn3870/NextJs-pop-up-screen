@@ -4,6 +4,7 @@
   import CarsInGarage from "@/components/CarsInGarage";
   import RoofType from "@/components/RoofType";
   import RoofComplexity from "@/components/RoofComplexity";
+  import ChimenysOnRoof from "@/components/ChimneysOnRoof"
   import RoofMaterialType from "@/components/RoofMeterialType";
   import FinalPage from "@/components/FinalPage";
   import Results from '@/components/Results'
@@ -18,6 +19,7 @@
       CarsInGarage,
       RoofType,
       RoofComplexity,
+      ChimenysOnRoof,
       RoofMaterialType,
       FinalPage,
       Results
